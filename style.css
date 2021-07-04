@@ -17,6 +17,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 40px;
 }
 .half-width{
     width: 500px;
@@ -26,6 +27,7 @@ section{
 .half-width img{
     width: 500px;
     padding: 40px 20px;
+    border-radius: 45%;
 }
 .link-button{
     text-decoration:  none;
@@ -44,4 +46,28 @@ section{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+.soman-koro{
+    width: 50%;
+    padding-left: 10%;
+    
+}
+.soman-koro img{
+    width: 100%;
+    border-radius: 100%
+}
+section{
+    display: flex;
+
+}
+.dream-big{
+    /* margin: 50px 40px; */
+    background-image: url(just.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.button{
+    text-decoration: none;
+    background-color: red;
+    padding: 5px 15px;
 }
