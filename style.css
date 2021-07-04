@@ -1,0 +1,47 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size: 50px;
+    padding-left: 40px;
+    color: rgb(0, 255, 191);
+}
+.boro{
+    font-size: 80px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.orange-color{
+    
+    color: rgba(8, 133, 235, 0.363);
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 500px;
+    padding-left: 10px;
+    
+}
+.half-width img{
+    width: 500px;
+    padding: 40px 20px;
+}
+.link-button{
+    text-decoration:  none;
+    background-color: rgb(214, 108, 9);
+    background-image: linear-gradient(hsl(0, 100%, 50%) tomato);
+    padding: 3px 20px;
+    border-radius: 4px;
+    color: darkorchid;
+    font-weight: 900;
+
+}
+.bannar-img{
+    background-image: url(images.jpg);
+    /* background-repeat: no-repeat; */
+     
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
