@@ -8,14 +8,15 @@ h1{
 }
 .boro{
     font-size: 80px;
-    padding-bottom: 20px;
-    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #00ff55;
 }
 .orange-color{
     
     color: rgba(8, 133, 235, 0.363);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 40px;
 }
@@ -56,13 +57,13 @@ section{
     width: 100%;
     border-radius: 100%
 }
-section{
+/* section{
     display: flex;
 
-}
+} */
 .dream-big{
     /* margin: 50px 40px; */
-    background-image: url(just.png);
+    background-image: url(adf.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -71,3 +72,29 @@ section{
     background-color: red;
     padding: 5px 15px;
 }
+.experience-area{
+    background-image: url(asdf.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: left; */
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 500px;
+    padding-left: 10px;
+    border-left: 5px solid;
+
+}
+#web-dev-experiene{
+    border-left: 7px solid;
+    border-image: slice;
+    border-image:url(  purple blue purple )
+
+}
+ footer p{
+     text-align: center;
+ }
